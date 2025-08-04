@@ -1,0 +1,72 @@
+/* Emily Sullivan | Midterm Project | styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f7f4;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 960px;
+    padding: 1rem;
+}
+
+header {
+    background-color: #e0ddd6;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #ccc;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.profile-img {
+    float: right;
+    margin-left: 1rem;
+    width: 5%;
+    border-radius: 8px;
+}
+
+.hobby-img {
+    width: 45%;
+    margin: 1rem 2% 1rem 0;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e0ddd6;
+    margin-top: 2rem;
+    border-top: 3px solid #ccc;
+}
